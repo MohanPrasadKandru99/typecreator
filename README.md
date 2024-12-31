@@ -1,6 +1,3 @@
-Here’s a detailed `README.md` for your project:
-
----
 
 # **typecreator**  
 [@official](https://github.com/MohanPrasadKandru99/typecreator)  
