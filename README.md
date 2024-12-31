@@ -21,7 +21,7 @@ Tired of cluttered TypeScript files? Want a structured and automated way to mana
 - 🔍 **Detailed Summaries**: Provides clear output, including:
   - Count of processed types.
   - Names and file paths of the migrated types.
-- 🛡️ **Safe Operations**: Ensures existing files are not accidentally overwritten.
+- 🛡️ **Safe Operations**: Ensures existing files are not accidentally overwritten unless explicitly allowed.
 - 🌟 **Simple and Intuitive**: Designed for developers to get started quickly and easily.
 
 ---
@@ -49,6 +49,7 @@ typecreator create types.ts --migrate ./output
 
 ### **Options**
 - `--migrate <directory>`: Specify the directory where extracted types will be migrated.
+- `--overwrite`: Allow overwriting of existing files if they already exist in the migration directory.
 
 ---
 
@@ -107,6 +108,7 @@ Processed 2 types.
 - Introduce custom templates for generated files.
 - Improved error handling and validations.
 - Add automated testing for robust functionality.
+- **Overwrite Option**: Ability to allow overwriting of existing files with the `--overwrite` flag to force migration even when files already exist in the target directory.
 
 ---
 
@@ -132,6 +134,29 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Follow [@official](https://github.com/MohanPrasadKandru99/typecreator) for updates, new releases, and feature announcements.
 
+---
+
+## **Overwrite and Without Overwrite Scenarios**
+
+### **1. Without Overwrite (Default Behavior)**
+By default, `typecreator` prevents overwriting existing files in the destination directory to avoid accidental data loss.
+
+#### Example:
+```bash
+typecreator create types.ts --migrate ./output
+```
+If the `Employee.ts` or `Department.ts` files already exist in the `./output` directory, the tool will not overwrite them. Instead, it will skip migrating those types and provide a warning.
+
+---
+
+### **2. With Overwrite Option**
+If you want `typecreator` to overwrite existing files in the destination directory, you can use the `--overwrite` flag.
+
+#### Example:
+```bash
+typecreator create types.ts --migrate ./output --overwrite
+```
+This will allow the tool to overwrite any existing `Employee.ts` or `Department.ts` files in the `./output` directory, ensuring the most recent type definitions are stored.
 ---
 
 ## **Use Cases**
