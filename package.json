@@ -1,8 +1,8 @@
 {
-  "name": "typecreator",
-  "version": "1.0.0",
+  "name": "typecreator-cli",
+  "version": "1.0.1",
   "description": "[@official](https://github.com/MohanPrasadKandru99/typecreator)",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "start": "node ./bin/index.js",
@@ -18,12 +18,13 @@
   "author": "Mohan S R Prasad Kandru",
   "license": "MIT",
   "bin": {
-    "typecreator": "./bin/index.js"
+    "typecreator": "bin/index.js"
   },
   "dependencies": {
     "chalk": "^5.4.1",
     "commander": "^12.1.0",
-    "fs-extra": "^11.2.0"
+    "fs-extra": "^11.2.0",
+    "typecreator-cli": "^1.0.0"
   },
   "jest": {
     "testEnvironment": "node",

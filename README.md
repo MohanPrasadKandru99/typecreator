@@ -30,7 +30,7 @@ Tired of cluttered TypeScript files? Want a structured and automated way to mana
 
 Install `typecreator` globally via npm:  
 ```bash
-npm install -g typecreator
+npm install -g typecreator-cli
 ```
 
 ---

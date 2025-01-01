@@ -37,3 +37,6 @@ yarn.lock
 
 # Coverage reports
 coverage/
+
+#ignore files/directories
+*dist/
