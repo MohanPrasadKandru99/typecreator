@@ -39,4 +39,4 @@ yarn.lock
 coverage/
 
 #ignore files/directories
-*dist/
+dist/
