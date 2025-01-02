@@ -3,6 +3,13 @@
 [@official](https://github.com/MohanPrasadKandru99/typecreator)  
 
 _A new dynamic type creator tool that processes and organizes TypeScript types seamlessly._  
+# **TypeCreator CLI**  
+[@official](https://github.com/MohanPrasadKandru99/typecreator)
+
+_A new dynamic type creator tool that processes and organizes TypeScript types seamlessly._
+
+![TypeCreator CLI](my-typecreator-cli-pic.jpg)
+
 
 `typecreator` is a Node.js command-line utility designed to simplify TypeScript type management. It reads a provided file, processes its contents, splits or migrates types into separate files, and reports the results—streamlining your workflow and enhancing code organization.
 
