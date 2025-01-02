@@ -23,7 +23,7 @@
 
 ---
 
-## [1.0.1] - 2024-12-30
+## [1.0.1] - 2025-01-01
 ### Fixed
 - **Minor Bug Fixes**: Fixed small issues related to type extraction and migration logic.
 
@@ -32,7 +32,7 @@
 
 ---
 
-## [1.0.0] - 2024-12-25
+## [1.0.0] - 2024-12-31
 ### Initial Release
 - **Basic Type Extraction**: Automatically extracts types from TypeScript files.
 - **Type Migration**: Supports migrating extracted types into separate files.
