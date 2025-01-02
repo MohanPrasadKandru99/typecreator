@@ -1,8 +1,3 @@
-
-# **typecreator**  
-[@official](https://github.com/MohanPrasadKandru99/typecreator)  
-
-_A new dynamic type creator tool that processes and organizes TypeScript types seamlessly._  
 # **TypeCreator CLI**  
 [@official](https://github.com/MohanPrasadKandru99/typecreator)
 
